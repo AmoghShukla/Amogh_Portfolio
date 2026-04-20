@@ -128,11 +128,13 @@ export default function Hero() {
               label: "Email",
               href: "mailto:amoghshukla1616@gmail.com",
             },
+            { label: "Resume", href: "/resume.pdf", download: true },
           ].map((s) => (
             <a
               key={s.label}
               href={s.href}
-              target={s.label !== "Email" ? "_blank" : undefined}
+              download={s.download || undefined}
+              target={s.label !== "Email" && !s.download ? "_blank" : undefined}
               rel="noopener noreferrer"
               className="text-xs transition-colors duration-200"
               style={{

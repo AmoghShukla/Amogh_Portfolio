@@ -83,7 +83,7 @@ export default function Hero() {
           }}
         >
           Building scalable backend systems, clean APIs, and maintainable code.
-          Currently interning at Coditas — working with FastAPI, PostgreSQL, and
+          Currently interning at Coditas — working with Python, FastAPI, PostgreSQL, and
           clean architecture.
         </p>
 

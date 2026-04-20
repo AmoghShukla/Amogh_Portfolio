@@ -84,7 +84,7 @@ export default function Hero() {
         >
           Building scalable backend systems, clean APIs, and maintainable code.
           Currently interning at Coditas — working with Python, FastAPI, PostgreSQL, and
-          clean architecture.
+          GenAI.
         </p>
 
         <div className="flex items-center gap-6">

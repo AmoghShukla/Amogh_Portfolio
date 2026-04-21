@@ -122,7 +122,7 @@ export default function Hero() {
         {/* social links */}
         <div className="flex gap-6 mt-16">
           {[
-            { label: "GitHub", href: "https://github.com/AmoghShukla" },
+            { label: "GitHub", href: "https://github.com/AmoghShukla." },
             { label: "LinkedIn", href: "https://www.linkedin.com/in/amogh-shukla-57b1a7247/" },
             {
               label: "Email",

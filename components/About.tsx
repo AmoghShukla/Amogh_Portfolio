@@ -4,7 +4,7 @@ export default function About() {
     { cat: "Backend", items: ["FastAPI", "SQLAlchemy", "Alembic", "JWT", "REST APIs"] },
     { cat: "Databases", items: ["PostgreSQL", "MySQL"] },
     { cat: "Tools", items: ["Git", "GDB", "Postman", "DBeaver", "VS Debugger"] },
-    { cat: "Concepts", items: ["DSA", "OOP", "OS", "DBMS", "RAG Pipelines"] },
+    { cat: "Concepts", items: ["DSA", "OOP", "OS", "DBMS", "Celery", "RAG Pipelines"] },
   ];
 
   return (

@@ -40,20 +40,8 @@ const projects = [
   },
   {
     "name": "Task Manager API",
-    "tagline": "Scalable Task Management Backend",
-    "description": "A production-ready task management backend built with FastAPI and PostgreSQL, supporting authentication, task operations, and clean modular architecture.",
-    "points": [
-      "JWT-based authentication with secure user login and registration",
-      "CRUD operations for task management with relational mapping",
-      "Layered architecture using routers, services, repositories, and schemas"
-    ],
-    "stack": ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Pydantic", "Alembic"],
-    "github": "https://github.com/AmoghShukla/Task_Manager_API-With-Postgres-Database.git"
-  },
-  {
-    "name": "Task Manager API (Extended)",
     "tagline": "Advanced Task Management System",
-    "description": "An extended implementation of a task management system focusing on database design, scalability, and backend best practices using PostgreSQL.",
+    "description": "A production-ready task management backend built with FastAPI and PostgreSQL, supporting authentication, task operations, and clean modular architecture.",
     "points": [
       "Optimized database schema design for users, tasks, and relationships",
       "Integration with PostgreSQL for persistent and scalable storage",

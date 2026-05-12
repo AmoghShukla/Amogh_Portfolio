@@ -3,15 +3,14 @@ const projects = [
   {
     name: "SmartSpace",
     tagline: "Resource Booking and Management System",
-    description:
-      "A rule-driven league tournament platform simulating real-world operations. Features a constraint-based double round-robin fixture generator enforcing team rest gaps, venue availability, and conflict-free scheduling.",
+    description: "A WeWork-style resource booking and workspace management platform designed to streamline shared workspace operations. Features conflict-free booking logic, role-based access control, and scalable backend architecture for managing resources, schedules, and user operations.",
     points: [
-      "Dynamic standings engine that auto-updates rankings based on match outcomes",
-      "Layered architecture with clean separation across models, services, repos, schemas, and routers",
-      "SQLAlchemy ORM with Alembic migrations for Team, Match, Venue, and League entities",
+      "JWT-based authentication and authorization system with secure user access management",
+      "Modular layered architecture with clean separation across models, services, repositories, schemas, and routers",
+      "SQLAlchemy ORM with Alembic migrations for managing Users, Workspaces, Resources, and Bookings",
     ],
-    stack: ["Python", "FastAPI", "SQLAlchemy", "Pydantic", "Alembic", "REST API"],
-    github: "https://github.com/AmoghShukla/LeagueForge-Tournament-Management-System.git",
+    stack: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Pydantic", "Alembic", "REST API"],
+    github: "https://github.com/AmoghShukla/SmartSpace.git",
   },
   {
     name: "LeagueForge",

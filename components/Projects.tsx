@@ -2,7 +2,7 @@
 const projects = [
   {
     name: "SmartSpace",
-    tagline: "Tournament Management System",
+    tagline: "Resource Booking and Management System",
     description:
       "A rule-driven league tournament platform simulating real-world operations. Features a constraint-based double round-robin fixture generator enforcing team rest gaps, venue availability, and conflict-free scheduling.",
     points: [

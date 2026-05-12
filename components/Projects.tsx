@@ -1,6 +1,19 @@
 "use client";
 const projects = [
   {
+    name: "SmartSpace",
+    tagline: "Tournament Management System",
+    description:
+      "A rule-driven league tournament platform simulating real-world operations. Features a constraint-based double round-robin fixture generator enforcing team rest gaps, venue availability, and conflict-free scheduling.",
+    points: [
+      "Dynamic standings engine that auto-updates rankings based on match outcomes",
+      "Layered architecture with clean separation across models, services, repos, schemas, and routers",
+      "SQLAlchemy ORM with Alembic migrations for Team, Match, Venue, and League entities",
+    ],
+    stack: ["Python", "FastAPI", "SQLAlchemy", "Pydantic", "Alembic", "REST API"],
+    github: "https://github.com/AmoghShukla/LeagueForge-Tournament-Management-System.git",
+  },
+  {
     name: "LeagueForge",
     tagline: "Tournament Management System",
     description:

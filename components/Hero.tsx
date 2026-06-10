@@ -129,7 +129,7 @@ export default function Hero() {
               label: "Email",
               href: "mailto:amoghshukla1616@gmail.com",
             },
-            { label: "Resume", href: "/Resume.pdf", download: true },
+            { label: "Resume", href: "/resume.pdf", download: true },
           ].map((s) => (
             <a
               key={s.label}

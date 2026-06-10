@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 const roles = [
+  "gen-ai developer",
   "software engineer",
   "backend developer",
   "api builder",

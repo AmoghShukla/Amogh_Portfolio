@@ -1,6 +1,42 @@
 "use client";
 const projects = [
   {
+    name: "Assetra",
+    tagline: "Enterprise Asset Management System",
+    description: "Assetra is a scalable backend-driven asset management platform designed to streamline organizational asset tracking, allocation, lifecycle management, and access control through a structured and maintainable system architecture.",
+    points: [
+    "Role-Based Asset Management Enables controlled access and secure operations across multiple user roles and departments",
+    "Scalable Backend Architecture Built using modular FastAPI architecture with clean separation of routes, services, schemas, and database layers",
+    "Efficient Asset Lifecycle Tracking Supports asset allocation, monitoring, maintenance workflows, and audit-ready operations",
+    ],
+    stack: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Pydantic", "JWT Authentication", "REST API"],
+    github: "https://github.com/AmoghShukla/Assetra.git"
+  },
+  {
+    name: "Certivax",
+    tagline: "Certification & Examination Management Platform",
+    description: "Certivax is a backend-focused certification and examination management platform designed to handle candidate registration, exam workflows, certification tracking, and secure result management through a scalable API-driven architecture.",
+    points: [
+    "Centralized Certification Workflow Manages candidate onboarding, examinations, certification issuance, and result tracking",
+    "Secure Authentication & Access Control Implements structured authentication and authorization mechanisms for protected operations",
+    "Production-Ready API Architecture Built with scalable backend practices including modular routing, schema validation, and database migrations",
+    ],
+    stack: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Pydantic", "JWT Authentication", "REST API"],
+    github: "https://github.com/AmoghShukla/Certivax-certification-platform.git"
+  },
+  {
+    name: "SevaSetu",
+    tagline: "Public Grivience Management System",
+    description: "SevaSetu is a centralized, system-driven platform designed to streamline the lifecycle of public grievance handling from complaint registration to resolution tracking. It replaces manual, inefficient workflows with a structured, scalable, and transparent digital system.",
+    points: [
+      "Centralized Complaint Management Unified platform for registering and managing grievances across multiple departments",
+      "Structured Resolution Workflow Ensures complaints follow a defined lifecycle with clear status tracking and accountability",
+      "Category-Based Complaint Handling Organizes grievances efficiently for better routing and resolution",
+    ],
+    stack: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Pydantic", "Alembic", "REST API"],
+    github: "https://github.com/AmoghShukla/SevaSetu-Public-Grivience-Management-System.git"
+  },
+  {
     name: "SmartSpace",
     tagline: "Resource Booking and Management System",
     description: "A WeWork-style resource booking and workspace management platform designed to streamline shared workspace operations. Features conflict-free booking logic, role-based access control, and scalable backend architecture for managing resources, schedules, and user operations.",
@@ -10,7 +46,7 @@ const projects = [
       "SQLAlchemy ORM with Alembic migrations for managing Users, Workspaces, Resources, and Bookings",
     ],
     stack: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Pydantic", "Alembic", "REST API"],
-    github: "https://github.com/AmoghShukla/SmartSpace.git",
+    github: "https://github.com/AmoghShukla/SmartSpace.git"
   },
   {
     name: "LeagueForge",
@@ -61,6 +97,18 @@ const projects = [
     ],
     "stack": ["Python", "REST API", "CLI", "JSON"],
     "github": "https://github.com/AmoghShukla/InstaNews-Console-Based-News-Application-System.git"
+  },
+  {
+    name: "Simple Chatbot API",
+    tagline: "AI-Powered Conversational Backend API",
+    description: "Simple Chatbot API is a lightweight conversational AI backend built using FastAPI and Gemini API integration, designed to process user prompts and generate intelligent responses through a clean and extensible REST architecture.",
+    points: [
+    "AI-Powered Response Generation Integrates Gemini API for handling dynamic conversational interactions",
+    "FastAPI-Based REST Architecture Provides lightweight, high-performance API endpoints for chatbot communication",
+    "Structured Request Validation Uses Pydantic schemas for clean input validation and response management",
+    ],
+    stack: ["Python", "FastAPI", "Gemini API", "Pydantic", "REST API", "AI Integration"],
+    github: "https://github.com/AmoghShukla/Simple-Chatbot-API.git"
   },
   {
     "name": "VisionID",
